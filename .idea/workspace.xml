@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="365f9faa-c0aa-43e1-9e7e-cfbe846e4b27" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Models/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Models/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/Team.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Service/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/teamOperationImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/teamOperationImp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/teamOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/teamOperations.java" afterDir="false" />
@@ -22,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Models/Team.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1092">
-              <caret line="78" selection-start-line="78" selection-end-line="78" />
+            <state relative-caret-position="356">
+              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#Team#0;class#Team#0" />
@@ -37,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/teamOperations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            <state relative-caret-position="399">
+              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Service/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1260">
-              <caret line="70" column="45" selection-start-line="70" selection-start-column="45" selection-end-line="70" selection-end-column="45" />
+            <state relative-caret-position="331">
+              <caret line="65" column="9" lean-forward="true" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,7 +94,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/playerOperationImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
+            <state relative-caret-position="419">
               <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -110,8 +108,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/teamOperationImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1021">
-              <caret line="76" column="18" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
+            <state relative-caret-position="553">
+              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -178,12 +176,12 @@
         <option value="$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/playerOperations.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/playerOperationImp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/teamOperations.java" />
         <option value="$PROJECT_DIR$/src/main/java/Service/temaOperationImp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/teamOperationImp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Service/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/Models/Player.java" />
         <option value="$PROJECT_DIR$/src/main/java/Models/Team.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/teamOperationImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/teamOperations.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/Main.java" />
       </list>
     </option>
   </component>
@@ -375,6 +373,14 @@
       <option name="presentableId" value="Default" />
       <updated>1551886208064</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add implementation of Team">
+      <created>1553105130582</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553105130582</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -390,7 +396,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33286119" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27903682" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -409,6 +415,10 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="8" side_tool="true" weight="0.3295302" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add implementation of Team" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add implementation of Team" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -460,29 +470,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Service/temaOperationImp.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Models/Team.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1092">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Team#0;class#Team#0" />
-            <element signature="method#Team#1;class#Team#0" />
-            <element signature="method#toString#0;class#Team#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/teamOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Models/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -505,32 +492,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Service/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="70" column="45" selection-start-line="70" selection-start-column="45" selection-end-line="70" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="16" column="72" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/playerOperationImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2486#2487#0" expanded="true" />
-            <element signature="e#2513#2514#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -551,10 +516,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Models/Team.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Team#0;class#Team#0" />
+            <element signature="method#Team#1;class#Team#0" />
+            <element signature="method#toString#0;class#Team#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/playerOperationImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2486#2487#0" expanded="true" />
+            <element signature="e#2513#2514#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/teamOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="65" column="9" lean-forward="true" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/teamOperationImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1021">
-          <caret line="76" column="18" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
+        <state relative-caret-position="553">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

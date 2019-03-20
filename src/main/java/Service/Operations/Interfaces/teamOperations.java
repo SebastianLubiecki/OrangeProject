@@ -17,4 +17,6 @@ public interface teamOperations {
 
     List<Game> listOfTeamGames(Team team);
 
+     Team getTeam(String name);
+
 }

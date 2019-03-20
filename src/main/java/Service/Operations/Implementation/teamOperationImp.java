@@ -48,12 +48,12 @@ public class teamOperationImp implements teamOperations {
         return team;
     }
 
-    private Team getTeam(String name) {
+    public Team getTeam(String name) {
         Team team;
         EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("orangeproject");
         EntityManager entityManager = entityManagerFactory.createEntityManager();
         entityManager.getTransaction().begin();
-        team = entityManager.createQuery("select t from Team t where t.name = :name",
+        team = entityManager.createQuery("from Team t where t.name = :name",
                 Team.class).setParameter("name", name).getSingleResult();
         entityManager.getTransaction().commit();
         entityManager.close();
@@ -66,10 +66,8 @@ public class teamOperationImp implements teamOperations {
         EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("orangeproject");
         EntityManager entityManager = entityManagerFactory.createEntityManager();
         entityManager.getTransaction().begin();
-
         listOfTeams = entityManager.createQuery("from Team",
                 Team.class).getResultList();
-
         entityManager.getTransaction().commit();
         entityManager.close();
         entityManagerFactory.close();

@@ -1,15 +1,9 @@
 package Service;
 
-import Models.Game;
-import Models.Player;
 import Models.Team;
 import Service.Operations.Implementation.teamOperationImp;
 import Service.Operations.Interfaces.teamOperations;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
-import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
@@ -66,11 +60,11 @@ public class Main {
 //        entityManagerFactory.close();
 
         teamOperations teamOperations = new teamOperationImp();
-       List<Team> teams = teamOperations.getListOfTeams();
-        for (int i = 0; i <teams.size() ; i++) {
-            System.out.println( teams.get(i));
-
+        List<Team> teams = teamOperations.getListOfTeams();
+        for (int i = 0; i < teams.size(); i++) {
+            System.out.println(teams.get(i));
         }
-
+        System.out.println("NEXT TEST");
+        System.out.println(teamOperations.getTeam("Hornests"));
     }
 }

@@ -2,12 +2,17 @@ package Models;
 
 import lombok.AccessLevel;
 import lombok.Setter;
+import org.hibernate.annotations.LazyCollection;
+import org.hibernate.annotations.LazyCollectionOption;
+import org.hibernate.annotations.Proxy;
 
 import javax.persistence.*;
 import java.util.List;
 
 @Entity
+@Proxy(lazy = false)
 @Table(name = "teams")
+
 public class Team {
 
     @Id
@@ -16,10 +21,12 @@ public class Team {
 
     private String name;
 
+    @LazyCollection(LazyCollectionOption.FALSE)
     @OneToMany(mappedBy = "team", cascade = CascadeType.ALL)
     private List<Player> playerList;
 
-    @ManyToMany(mappedBy = "team")
+    @LazyCollection(LazyCollectionOption.FALSE)
+    @ManyToMany( mappedBy = "team")
     private List<Game> game;
 
     @Setter(AccessLevel.NONE)
@@ -73,5 +80,16 @@ public class Team {
 
     public void setTotalScore(Long totalScore) {
         this.totalScore = totalScore;
+    }
+
+    @Override
+    public String toString() {
+        return "Team{" +
+                "teamId=" + teamId +
+                ", name='" + name + '\'' +
+                ", playerList=" + playerList +
+                ", game=" + game +
+                ", totalScore=" + totalScore +
+                '}';
     }
 }

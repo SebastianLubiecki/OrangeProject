@@ -1,9 +1,12 @@
 package Models;
 
+import org.hibernate.annotations.Proxy;
+
 import javax.persistence.*;
 
 @Table(name = "players")
 @Entity
+
 public class Player {
 
     @Id
@@ -29,6 +32,7 @@ public class Player {
 
     @ManyToOne
     @JoinColumn(name = "teamId")
+
     private Team team;
 
     public Player() {

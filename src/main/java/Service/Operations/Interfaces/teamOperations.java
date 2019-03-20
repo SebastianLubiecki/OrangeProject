@@ -7,7 +7,7 @@ import java.util.List;
 
 public interface teamOperations {
 
-    Team insertNewTeam(Team team);
+    Team insertNewTeam();
 
     Boolean deleteTeam(Team team);
 

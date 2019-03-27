@@ -18,7 +18,7 @@ public class Team {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long teamId;
-
+ // dopisac name unice
     private String name;
 
     @LazyCollection(LazyCollectionOption.FALSE)

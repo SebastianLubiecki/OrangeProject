@@ -108,4 +108,16 @@ public class Game {
     public void setTeam(List<Team> team) {
         this.team = team;
     }
+
+    @Override
+    public String toString() {
+        return "Game{" +
+                "teamHome='" + teamHome + '\'' +
+                ", teamAway='" + teamAway + '\'' +
+                ", teamHomeScore=" + teamHomeScore +
+                ", teamAwayScore=" + teamAwayScore +
+                ", isTeamHomeWin=" + isTeamHomeWin +
+                ", isTeamAwayWin=" + isTeamAwayWin +
+                '}';
+    }
 }

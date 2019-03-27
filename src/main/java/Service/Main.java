@@ -1,70 +1,82 @@
 package Service;
 
-import Models.Team;
+import Models.Game;
+import Service.Operations.Implementation.gameOperationImp;
 import Service.Operations.Implementation.teamOperationImp;
+import Service.Operations.Interfaces.gameOperations;
 import Service.Operations.Interfaces.teamOperations;
 
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
 import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
 
+        teamOperations teamOperations = new teamOperationImp();
+        gameOperations gameOperations = new gameOperationImp();
 
-//        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("orangeproject");
+//             EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("orangeproject");
 //        EntityManager entityManager = entityManagerFactory.createEntityManager();
 //
-//
 //        Team team1 = new Team();
-//        team1.setName("LAL");
+//        team1.setName("Celtics");
 //        Team team2 = new Team();
-//        team2.setName("NYK");
-//        List<Team> teams = new ArrayList<Team>();
+//        team2.setName("Magic");
+//        List<Team> teams = new ArrayList<>();
 //        teams.add(team1);
 //        teams.add(team2);
 //
-//
 //        Player player1 = new Player();
 //        Player player2 = new Player();
-//        player1.setFirstName("ja");
-//        player1.setSurName("sadasd");
-//        player1.setAge(21);
-//        player1.setTeam(team1);
-//        player1.setExperience(2);
+//        player1.setFirstName("Aneta");
+//        player1.setSurName("Wrobel");
+//        player1.setAge(28);
+//        player1.setTeam(teamOperations.getTeam("Heat"));
+//        player1.setExperience(6);
 //
-//        player2.setFirstName("tysdsa");
-//        player2.setSurName("sabnbbvnb");
-//        player2.setAge(11);
-//        player2.setTeam(team2);
-//        player2.setExperience(12);
+//        player2.setFirstName("Igor");
+//        player2.setSurName("Żebrowski");
+//        player2.setAge(29);
+//        player2.setTeam(teamOperations.getTeam("Magic"));
+//        player2.setExperience(1);
 //
 //        Game game = new Game();
-//        game.setTeamAway(team1.getName());
-//        game.setTeamAwayScore(12);
-//        game.setTeamHomeScore(23);
-//        game.setTeamHome(team2.getName());
-//        game.setTeam(teams);
-//        game.setTeamAwayWine(false);
-//        game.setTeamHomeWine(true);
+//        game.setTeamAway(teamOperations.getTeam("Magic").getName());
+//        game.setTeamAwayScore(140);
+//        game.setTeamHomeScore(120);
+//        game.setTeamHome(teamOperations.getTeam("Celtics").getName());
+//       // game.setTeam(teams);
+//        game.setTeamAwayWine(true);
+//        game.setTeamHomeWine(false);
 //
 //        entityManager.getTransaction().begin();
-//        entityManager.persist(team1);
-//        entityManager.persist(team2);
-//        entityManager.persist(player1);
-//        entityManager.persist(player2);
-//        entityManager.persist(game);
+////        entityManager.persist(team1);
+////        entityManager.persist(team2);
+////        entityManager.persist(player1);
+////        entityManager.persist(player2);
+//       entityManager.persist(game);
 //
 //        entityManager.getTransaction().commit();
-//
-//
 //        entityManager.close();
 //        entityManagerFactory.close();
 
-        teamOperations teamOperations = new teamOperationImp();
-        List<Team> teams = teamOperations.getListOfTeams();
-        for (int i = 0; i < teams.size(); i++) {
-            System.out.println(teams.get(i));
+        List<Game> list = teamOperations.listOfTeamGames(teamOperations.getTeam("Celtics"));
+        //  Team team = teamOperations.getTeam("Heat");
+        //Player player = new Player();
+//        player.setSurName("Adi");
+//        player.setTeam(team);
+//        player.setAge(23);
+//        player.setFirstName("asdasd");
+        //    System.out.println("Team number " + team.getTeamId());
+        // teamOperations.deleteTeam(team);
+
+
+        for (Object o : list) {
+            System.out.println(o);
         }
-        System.out.println("NEXT TEST");
-        System.out.println(teamOperations.getTeam("Hornests"));
-    }
+
+      // game operation imp do poprawy i sprawdzenia
+
 }

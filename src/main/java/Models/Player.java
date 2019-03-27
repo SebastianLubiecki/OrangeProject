@@ -1,7 +1,5 @@
 package Models;
 
-import org.hibernate.annotations.Proxy;
-
 import javax.persistence.*;
 
 @Table(name = "players")
@@ -13,7 +11,7 @@ public class Player {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "playerId")
     private Long playerId;
-
+// unice combination of id and name
     @Column(name = "firstName")
     private String firstName;
 
@@ -32,7 +30,6 @@ public class Player {
 
     @ManyToOne
     @JoinColumn(name = "teamId")
-
     private Team team;
 
     public Player() {
@@ -102,5 +99,14 @@ public class Player {
 
     public void setTeam(Team team) {
         this.team = team;
+    }
+
+    @Override
+    public String toString() {
+        return "Player{" +
+                "firstName='" + firstName + '\'' +
+                ", surName='" + surName + '\'' +
+                ", age=" + age +
+                '}';
     }
 }

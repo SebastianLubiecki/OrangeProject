@@ -6,9 +6,6 @@ import Service.Operations.Implementation.teamOperationImp;
 import Service.Operations.Interfaces.gameOperations;
 import Service.Operations.Interfaces.teamOperations;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
 import java.util.List;
 
 public class Main {
@@ -77,6 +74,7 @@ public class Main {
             System.out.println(o);
         }
 
-      // game operation imp do poprawy i sprawdzenia
+        // game operation imp do poprawy i sprawdzenia
 
+    }
 }

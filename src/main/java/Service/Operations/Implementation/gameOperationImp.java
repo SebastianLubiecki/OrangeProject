@@ -75,11 +75,6 @@ public class gameOperationImp implements gameOperations {
         EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("orangeproject");
         EntityManager entityManager = entityManagerFactory.createEntityManager();
         entityManager.getTransaction().begin();
-        //String hql = "from Player";
-        //String hql = "select p from Player p inner join p.team t where t.teamId =: 3";
-        //Query query = (Query) entityManager.createQuery(hql);
-        //query.setParameter("team_id",team_id);
-        //playerList = query.getResultList();
         gameList=entityManager.createQuery("select teamHomeName,teamAwayName FROM Game").getResultList();
         entityManager.getTransaction().commit();
         entityManager.close();

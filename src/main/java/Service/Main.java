@@ -1,6 +1,8 @@
 package Service;
 
 import Models.Player;
+import Models.Team;
+import Service.Operations.Implementation.CRUD.PlayerCRUDImplementation;
 import Service.Operations.Implementation.CRUD.TeamCRUDImplementation;
 import Service.Operations.Implementation.Operation.playerOperationImp;
 import Service.Operations.Interfaces.CRUD.TeamCRUD;
@@ -10,10 +12,33 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        TeamCRUD teamCRUD = new TeamCRUDImplementation();
+        TeamCRUDImplementation teamCRUDImplementation = new TeamCRUDImplementation();
         PlayerOperations playerOperations = new playerOperationImp();
+        Player player = new Player();
+        Team team = new Team();
+        team.setName("Cracow");
+        //teamCRUDImplementation.insertNewTeam(team);
+        team = teamCRUDImplementation.findTeamByName(team.getName());
+        player.setFirstName("Aneta");
+        player.setSurName("Wrobel");
+        player.setAge(28);
+        player.setExperience(20);
+        player.setInjured(false);
+        player.setRating(100);
+        player.setTeam(team);
+        Player player1 = new Player();
+        team.setName("Cracow");
+        player1.setFirstName("Anetaa");
+        player1.setSurName("Wrobel");
+        player1.setAge(28);
+        player1.setExperience(20);
+        player1.setInjured(false);
+        player1.setRating(100);
+        player1.setTeam(team);
+        PlayerCRUDImplementation playerCRUDImplementation = new PlayerCRUDImplementation();
+        playerCRUDImplementation.insertNewPlayer(player1);
 
-        List<Player> list = playerOperations.getListOfPlayersInTeam(teamCRUD.findTeamByName("Lakers"));
+       List<Player> list = playerOperations.getListOfPlayersInTeam(teamCRUDImplementation.findTeamByName("Cracow"));
 
         for (int i = 0; i < list.size(); i++) {
             System.out.println(list.get(i));

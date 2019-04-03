@@ -11,12 +11,7 @@ import java.util.Scanner;
 public class TeamCRUDImplementation implements TeamCRUD {
 
     @Override
-    public Team insertNewTeam() { // dziala
-        Team team = new Team();
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Type name of the team you want to add: ");
-        String nameOfTheTeam = scanner.nextLine();
-        team.setName(nameOfTheTeam);
+    public Team insertNewTeam(Team team) { // dziala
         EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("orangeproject");
         EntityManager entityManager = entityManagerFactory.createEntityManager();
         entityManager.getTransaction().begin();

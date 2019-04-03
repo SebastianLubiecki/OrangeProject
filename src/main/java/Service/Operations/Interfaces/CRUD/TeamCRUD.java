@@ -4,7 +4,7 @@ import Models.Team;
 
 public interface TeamCRUD {
 
-    Team insertNewTeam();
+    Team insertNewTeam(Team team);
 
     Team findTeamByName(String name);
 

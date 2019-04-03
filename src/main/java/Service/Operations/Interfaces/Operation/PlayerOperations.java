@@ -5,7 +5,7 @@ import Models.Team;
 
 import java.util.List;
 
-public interface playerOperations {
+public interface PlayerOperations {
 
 
     List<Player> getListOfPlayersInTeam(Team team);

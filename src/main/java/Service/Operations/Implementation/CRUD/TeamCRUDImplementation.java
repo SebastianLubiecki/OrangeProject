@@ -33,7 +33,7 @@ public class TeamCRUDImplementation implements TeamCRUD {
         EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("orangeproject");
         EntityManager entityManager = entityManagerFactory.createEntityManager();
         entityManager.getTransaction().begin();
-        team = entityManager.createQuery("from Team t where t.name = :name",
+        team = entityManager.createQuery("from Team t where name = :name",
                 Team.class).setParameter("name", name).getSingleResult();
         entityManager.getTransaction().commit();
         entityManager.close();

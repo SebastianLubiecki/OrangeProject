@@ -5,7 +5,7 @@ import Models.Team;
 
 import java.util.List;
 
-public interface gameOperations {
+public interface GameOperations {
 
     List<Game> listOfGameWhereTeamScoreMoreThen(int numberOfPoint, Team team);
 

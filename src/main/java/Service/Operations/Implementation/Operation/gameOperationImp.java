@@ -2,7 +2,7 @@ package Service.Operations.Implementation.Operation;
 
 import Models.Game;
 import Models.Team;
-import Service.Operations.Interfaces.Operation.gameOperations;
+import Service.Operations.Interfaces.Operation.GameOperations;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -10,7 +10,7 @@ import javax.persistence.Persistence;
 import java.util.ArrayList;
 import java.util.List;
 
-public class gameOperationImp implements gameOperations {
+public class gameOperationImp implements GameOperations {
 
 
     @Override

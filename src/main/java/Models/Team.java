@@ -10,9 +10,7 @@ import javax.persistence.*;
 import java.util.List;
 
 @Entity
-@Proxy(lazy = false)
 @Table(name = "teams")
-
 public class Team {
 
     @Id

@@ -2,7 +2,7 @@ package Service.Operations.Implementation.Operation;
 
 import Models.Player;
 import Models.Team;
-import Service.Operations.Interfaces.Operation.playerOperations;
+import Service.Operations.Interfaces.Operation.PlayerOperations;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -10,7 +10,7 @@ import javax.persistence.Persistence;
 import javax.persistence.Query;
 import java.util.List;
 
-public class playerOperationImp implements playerOperations {
+public class playerOperationImp implements PlayerOperations {
 
 
     @Override
@@ -22,7 +22,7 @@ public class playerOperationImp implements playerOperations {
 
         String hql = " from Player where teamId = :teamId";
         System.out.println(team.getTeamId());
-        Query query = entityManager.createQuery(hql).setParameter("teamId", team.getTeamId());
+        Query query = entityManager.createQuery(hql, Player.class).setParameter("teamId", team.getTeamId());
         playerList = query.getResultList();
         entityManager.getTransaction().commit();
         entityManager.close();

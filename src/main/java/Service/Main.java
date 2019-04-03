@@ -82,5 +82,6 @@ public class Main {
 
         // game operation imp do poprawy i sprawdzenia
 
+        System.out.println("Commit test");
     }
 }

@@ -1,24 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="365f9faa-c0aa-43e1-9e7e-cfbe846e4b27" name="Default Changelist" comment="">
+    <list default="true" id="365f9faa-c0aa-43e1-9e7e-cfbe846e4b27" name="Default Changelist" comment="Default Changelist">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Connection/EntityUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Connection/EntityUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Models/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/Team.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Service/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/CRUD/GameCRUDImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/CRUD/GameCRUDImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/CRUD/TeamCRUDImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/CRUD/TeamCRUDImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/Operation/gameOperationImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/Operation/gameOperationImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/Operation/playerOperationImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/Operation/playerOperationImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/Operation/gameOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/Operation/GameOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/Operation/playerOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/Operation/PlayerOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Service/Operations/Implementation/teamOpartionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/META-INF/persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/hiberrnate.cfg.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,146 +16,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/CRUD/TeamCRUDImplementation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="35" column="60" lean-forward="true" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#insertNewTeam#0;class#TeamCRUDImplementation#0" />
-                <element signature="method#updateTeamName#0;class#TeamCRUDImplementation#0" />
-                <element signature="method#deleteTeam#0;class#TeamCRUDImplementation#0" />
-                <element signature="method#findTeamById#0;class#TeamCRUDImplementation#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/CRUD/PlayerCRUD.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/Operation/PlayerOperations.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Service/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/Operation/playerOperationImp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="24" column="65" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#getListOfInjuredPlayer#0;class#playerOperationImp#0" />
-                <element signature="method#getListPlayerWithExperienceMoreThen#0;class#playerOperationImp#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Models/Player.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9">
-              <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-              <folding>
-                <element signature="method#Player#0;class#Player#0" />
-                <element signature="e#1731#1732#0" expanded="true" />
-                <element signature="e#1775#1776#0" expanded="true" />
-                <element signature="e#1889#1890#0" expanded="true" />
-                <element signature="e#1924#1925#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/CRUD/PlayerCRUDImplementation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#insertNewPlayer#0;class#PlayerCRUDImplementation#0" />
-                <element signature="method#findPlayerById#0;class#PlayerCRUDImplementation#0" />
-                <element signature="method#getPlayerById#0;class#PlayerCRUDImplementation#0" />
-                <element signature="method#getPlayerBySurName#0;class#PlayerCRUDImplementation#0" />
-                <element signature="method#updatePlayer#0;class#PlayerCRUDImplementation#0" />
-                <element signature="method#deletePlayerInTeam#0;class#PlayerCRUDImplementation#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/CRUD/GameCRUDImplementation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#findGameById#0;class#GameCRUDImplementation#0" />
-                <element signature="method#deleteGame#0;class#GameCRUDImplementation#0" />
-                <element signature="method#updateGame#0;class#GameCRUDImplementation#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Connection/EntityUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="89" selection-start-line="11" selection-start-column="89" selection-end-line="11" selection-end-column="89" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#196#197#0" expanded="true" />
-                <element signature="e#292#293#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="Team.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Models/Team.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="28" />
+            <state relative-caret-position="160">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#Team#0;class#Team#0" />
-                <element signature="method#Team#1;class#Team#0" />
-                <element signature="method#toString#0;class#Team#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Models/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Service/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1480">
+              <caret line="84" column="39" selection-start-line="84" selection-start-column="39" selection-end-line="84" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="persistence.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hiberrnate.cfg.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/hiberrnate.cfg.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -235,10 +129,10 @@
         <option value="$PROJECT_DIR$/src/test/java/Service/Operations/Implementation/Operation/gameOperationImpTest.groovy" />
         <option value="$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/CRUD/TeamCRUDImplementation.java" />
         <option value="$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/Operation/playerOperationImp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Service/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/Models/Team.java" />
         <option value="$PROJECT_DIR$/src/main/java/Connection/EntityUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/CRUD/GameCRUDImplementation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/Main.java" />
       </list>
     </option>
   </component>
@@ -264,8 +158,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -342,28 +234,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Service" type="462c0819:PsiDirectoryNode" />
               <item name="Operations" type="462c0819:PsiDirectoryNode" />
-              <item name="Implementation" type="462c0819:PsiDirectoryNode" />
-              <item name="CRUD" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OrangeProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OrangeProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Service" type="462c0819:PsiDirectoryNode" />
-              <item name="Operations" type="462c0819:PsiDirectoryNode" />
-              <item name="Implementation" type="462c0819:PsiDirectoryNode" />
-              <item name="Operation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OrangeProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OrangeProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Service" type="462c0819:PsiDirectoryNode" />
-              <item name="Operations" type="462c0819:PsiDirectoryNode" />
               <item name="Interfaces" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -371,44 +241,23 @@
               <item name="OrangeProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Service" type="462c0819:PsiDirectoryNode" />
-              <item name="Operations" type="462c0819:PsiDirectoryNode" />
-              <item name="Interfaces" type="462c0819:PsiDirectoryNode" />
-              <item name="CRUD" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OrangeProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="OrangeProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Service" type="462c0819:PsiDirectoryNode" />
-              <item name="Operations" type="462c0819:PsiDirectoryNode" />
-              <item name="Interfaces" type="462c0819:PsiDirectoryNode" />
-              <item name="Operation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OrangeProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OrangeProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OrangeProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OrangeProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OrangeProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -416,7 +265,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Groovy JUnit" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/mysql-connector-java-5.1.47.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../mysql-connector-java-5.1.47.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -438,6 +287,141 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\IdeaProjects\OrangeProject\src\test" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/pom.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Connection/EntityUtil.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Models/Game.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Models/Player.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Models/Team.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Service/Main.java</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Service/Algorythm/Interafaces/PosibilityOfWin.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/CRUD/GameCRUDImplementation.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/CRUD/PlayerCRUDImplementation.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/CRUD/TeamCRUDImplementation.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/Operation/gameOperationImp.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/Operation/playerOperationImp.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/Operation/teamOperationImp.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/CRUD/GameCRUD.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/CRUD/PlayerCRUD.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/CRUD/TeamCRUD.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/Operation/GameOperations.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/Operation/PlayerOperations.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/Operation/TeamOperations.java</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/gameOperationImp.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/playerOperationImp.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/teamOperationImp.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/gameOperations.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/playerOperations.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/teamOperations.java</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -461,9 +445,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="TestTry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Service.TestTry" />
@@ -474,9 +455,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="playerOperationImp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Service.Operations.Implementation.Operation.playerOperationImp" />
@@ -487,10 +465,12 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.TestTry" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.playerOperationImp" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -545,82 +525,143 @@
       <option name="project" value="LOCAL" />
       <updated>1554299928032</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Default Changelist">
+      <created>1554303626391</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1554303626392</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25412542" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32838285" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Designer" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33509833" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3243626" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49716714" weight="0.24966443" />
+      <window_info anchor="right" id="Maven" order="8" weight="0.3295302" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22147651" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30169973" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30169973" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3243626" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49716714" weight="0.24966443" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="7" sideWeight="0.5028329" side_tool="true" weight="0.24563758" />
-      <window_info anchor="right" id="Maven" order="8" weight="0.3295302" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="6" side_tool="true" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1885906" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25212464" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25212464" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="8" side_tool="true" weight="0.119463086" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3243626" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="8" side_tool="true" weight="0.119463086" />
+      <window_info id="Favorites" order="6" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add implementation of Team" />
     <MESSAGE value="Add implementation of Team Player and started games" />
     <MESSAGE value="Add implementation and interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add implementation and interface" />
+    <MESSAGE value="Default Changelist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="34" column="33" lean-forward="true" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/gameOperationImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="42" selection-start-column="42" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/playerOperationImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="860">
+          <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="77" selection-start-line="12" selection-start-column="77" selection-end-line="12" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Service/Algorythm/asdfghm.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Service/temaOperationImp.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/playerOperationImpl.java" />
@@ -628,9 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="59" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <element signature="e#2043#2044#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -645,9 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="2072" selection-start-line="2072" selection-end-line="2072" />
-          <folding>
-            <element signature="e#84234#84235#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -669,12 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="789" selection-start-line="789" selection-end-line="789" />
-          <folding>
-            <element signature="e#24775#24776#0" expanded="true" />
-            <element signature="e#24817#24818#0" expanded="true" />
-            <element signature="e#36643#36644#0" expanded="true" />
-            <element signature="e#36679#36680#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -682,9 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="185" selection-start-line="185" selection-end-line="185" />
-          <folding>
-            <element signature="e#8988#8989#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -692,9 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#622#623#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -702,9 +725,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
           <caret line="88" selection-start-line="88" selection-end-line="88" />
-          <folding>
-            <element signature="e#3269#3270#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -712,9 +732,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="e#1041#1042#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -722,9 +739,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="122" selection-start-line="122" selection-end-line="122" />
-          <folding>
-            <element signature="e#3951#3952#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -739,10 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="76" selection-start-line="76" selection-end-line="76" />
-          <folding>
-            <element signature="e#11838#11839#0" expanded="true" />
-            <element signature="e#11882#11883#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -750,46 +760,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="477" selection-start-line="477" selection-end-line="477" />
-          <folding>
-            <element signature="e#9459#9460#0" expanded="true" />
-            <element signature="e#9494#9495#0" expanded="true" />
-            <element signature="e#9735#9736#0" expanded="true" />
-            <element signature="e#9785#9786#0" expanded="true" />
-            <element signature="e#10564#10565#0" expanded="true" />
-            <element signature="e#10625#10626#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="72" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
+        <state relative-caret-position="239">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/hiberrnate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+        <state relative-caret-position="180">
+          <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/hiberrnate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/hiberrnate.cfg.xml" />
     <entry file="file://$PROJECT_DIR$/src/test/java/Service/Operations/Implementation/playerOperationImpTest.groovy" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/META-INF/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="86" selection-start-line="17" selection-start-column="86" selection-end-line="17" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/META-INF/persistence.xml" />
     <entry file="file://$PROJECT_DIR$/src/test/java/Service/Operations/Implementation/teamOperationImpTest.groovy" />
     <entry file="file://$PROJECT_DIR$/src/test/java/Service/Operations/Implementation/gameOperationImpTest.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -868,16 +858,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Service/Operations/Implementation/teamOpartionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Service/Operations/Implementation/teamOpartionTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/Operation/gameOperationImp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -890,13 +871,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Service/Operations/Implementation/Operation/gameOperationImpTest.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Service/Operations/Implementation/Operation/gameOperationImpTest.groovy" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/CRUD/TeamCRUD.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -934,16 +909,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Service/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/Operation/playerOperationImp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -958,27 +923,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Models/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9">
-          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-          <folding>
-            <element signature="method#Player#0;class#Player#0" />
-            <element signature="e#1731#1732#0" expanded="true" />
-            <element signature="e#1775#1776#0" expanded="true" />
-            <element signature="e#1889#1890#0" expanded="true" />
-            <element signature="e#1924#1925#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="80">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Models/Team.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="28" />
+        <state relative-caret-position="160">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#Team#0;class#Team#0" />
-            <element signature="method#Team#1;class#Team#0" />
-            <element signature="method#toString#0;class#Team#0" />
           </folding>
         </state>
       </provider>
@@ -1035,6 +990,13 @@
             <element signature="method#deleteGame#0;class#GameCRUDImplementation#0" />
             <element signature="method#updateGame#0;class#GameCRUDImplementation#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1480">
+          <caret line="84" column="39" selection-start-line="84" selection-start-column="39" selection-end-line="84" selection-end-column="39" />
         </state>
       </provider>
     </entry>

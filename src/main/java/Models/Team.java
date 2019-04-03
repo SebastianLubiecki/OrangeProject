@@ -9,8 +9,9 @@ import org.hibernate.annotations.Proxy;
 import javax.persistence.*;
 import java.util.List;
 
+
+@Table(name = "team")
 @Entity
-@Table(name = "teams")
 public class Team {
 
     @Id

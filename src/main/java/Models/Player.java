@@ -2,7 +2,7 @@ package Models;
 
 import javax.persistence.*;
 
-@Table(name = "players")
+@Table(name = "player")
 @Entity
 
 public class Player {

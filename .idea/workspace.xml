@@ -2,8 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="365f9faa-c0aa-43e1-9e7e-cfbe846e4b27" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Service/Algorythm/Interafaces/PosibilityOfWin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/CRUD/GameCRUDImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/CRUD/PlayerCRUDImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/Operation/teamOperationImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/CRUD/GameCRUD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/CRUD/PlayerCRUD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/CRUD/TeamCRUD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/Operation/TeamOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Service/Operations/Implementation/teamOpartionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/hiberrnate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Service/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/gameOperationImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/Operation/gameOperationImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/playerOperationImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/Operation/playerOperationImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/teamOperationImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/CRUD/TeamCRUDImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/gameOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/Operation/gameOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/playerOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/Operation/playerOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/teamOperations.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,26 +33,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Models/Team.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/CRUD/TeamCRUDImplementation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="22" />
+            <state relative-caret-position="483">
+              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#Team#0;class#Team#0" />
-                <element signature="method#Team#1;class#Team#0" />
-                <element signature="method#toString#0;class#Team#0" />
+                <element signature="method#insertNewTeam#0;class#TeamCRUDImplementation#0" />
+                <element signature="method#findTeamByName#0;class#TeamCRUDImplementation#0" />
+                <element signature="method#updateTeamName#0;class#TeamCRUDImplementation#0" />
+                <element signature="method#deleteTeam#0;class#TeamCRUDImplementation#0" />
+                <element signature="method#findTeamById#0;class#TeamCRUDImplementation#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/teamOperations.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Connection/SessionUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#708#709#0" expanded="true" />
+                <element signature="e#766#767#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/CRUD/PlayerCRUD.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="294">
-              <caret line="17" column="22" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="22" />
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Service/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="59" column="39" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,28 +89,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Models/Player.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/CRUD/GameCRUD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-              <folding>
-                <element signature="method#Player#0;class#Player#0" />
-                <element signature="e#1731#1732#0" expanded="true" />
-                <element signature="e#1775#1776#0" expanded="true" />
-                <element signature="e#1889#1890#0" expanded="true" />
-                <element signature="e#1924#1925#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="210">
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/playerOperationImp.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/Operation/playerOperationImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1680">
-              <caret line="86" column="23" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="23" />
+            <state relative-caret-position="420">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#getListOfPlayersInTeam#0;class#playerOperationImp#0" />
+                <element signature="method#getListOfInjuredPlayer#0;class#playerOperationImp#0" />
+                <element signature="method#getListPlayerWithExperienceMoreThen#0;class#playerOperationImp#0" />
               </folding>
             </state>
           </provider>
@@ -73,8 +115,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Models/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            <state relative-caret-position="420">
+              <caret line="20" column="33" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#Game#0;class#Game#0" />
@@ -84,54 +126,48 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Service/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/Operation/gameOperationImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1218">
-              <caret line="64" column="35" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
+            <state relative-caret-position="315">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#getListOfGames#0;class#gameOperationImp#0" />
+                <element signature="method#listOfGameWhereTeamScoreMoreThen#0;class#gameOperationImp#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/playerOperations.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/CRUD/PlayerCRUDImplementation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+            <state relative-caret-position="322">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#insertNewPlayer#0;class#PlayerCRUDImplementation#0" />
+                <element signature="method#findPlayerById#0;class#PlayerCRUDImplementation#0" />
+                <element signature="method#getPlayerById#0;class#PlayerCRUDImplementation#0" />
+                <element signature="method#getPlayerBySurName#0;class#PlayerCRUDImplementation#0" />
+                <element signature="method#updatePlayer#0;class#PlayerCRUDImplementation#0" />
+                <element signature="method#deletePlayerInTeam#0;class#PlayerCRUDImplementation#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/teamOperationImp.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/CRUD/GameCRUDImplementation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/gameOperations.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/gameOperationImp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1470">
-              <caret line="79" column="22" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
+            <state relative-caret-position="525">
+              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#insertNewGame#0;class#GameCRUDImplementation#0" />
+                <element signature="method#findGameById#0;class#GameCRUDImplementation#0" />
+                <element signature="method#deleteGame#0;class#GameCRUDImplementation#0" />
+                <element signature="method#updateGame#0;class#GameCRUDImplementation#0" />
               </folding>
             </state>
           </provider>
@@ -142,6 +178,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -160,7 +197,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/hiberrnate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Connection/SessionUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/Service/TeamInterface.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Service/teamOperation.java" />
         <option value="$PROJECT_DIR$/src/main/java/Service/playerOperation.java" />
         <option value="$PROJECT_DIR$/src/main/java/Service/Operations/playerOperation.java" />
@@ -172,22 +208,44 @@
         <option value="$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/playerOperations.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Service/temaOperationImp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/teamOperations.java" />
         <option value="$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/playerOperationImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/Models/Team.java" />
         <option value="$PROJECT_DIR$/src/main/java/Models/Player.java" />
         <option value="$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/playerOperationImp.java" />
         <option value="$PROJECT_DIR$/src/main/java/Models/Game.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/teamOperationImp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/gameOperations.java" />
         <option value="$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/gameOperationImp.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/Service/Operations/Implementation/gameOperationImpTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Service/Operations/Implementation/teamOperationImpTest.groovy" />
+        <option value="$PROJECT_DIR$/src/test/resources/hiberrnate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/Service/Operations/Implementation/playerOperationImpTest.groovy" />
+        <option value="$PROJECT_DIR$/src/test/java/Service/Operations/Implementation/teamOpartionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/Algorythm/Interafaces/PosibilityOfWin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/teamOperations.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/gameOperations.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/TeamCRUD.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/TeamCRUDImplementation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/TeamOperations.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/teamOperationImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/Operation/gameOperations.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/Operation/playerOperations.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/CRUD/PlayerCRUDImplementation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/CRUD/GameCRUDImplementation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/CRUD/TeamCRUDImplementation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/Operation/gameOperationImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/Operation/playerOperationImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/Operation/teamOperationImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/CRUD/GameCRUD.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/CRUD/PlayerCRUD.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/Operation/TeamOperations.java" />
         <option value="$PROJECT_DIR$/src/main/java/Service/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
-    <option name="width" value="1868" />
+    <option name="width" value="1185" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -196,8 +254,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -263,7 +319,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Service" type="462c0819:PsiDirectoryNode" />
-              <item name="Operations" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorythm" type="462c0819:PsiDirectoryNode" />
+              <item name="Interafaces" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OrangeProject" type="b2602c69:ProjectViewProjectNode" />
@@ -273,24 +330,27 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Service" type="462c0819:PsiDirectoryNode" />
               <item name="Operations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OrangeProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OrangeProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OrangeProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OrangeProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OrangeProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OrangeProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Implementation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OrangeProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OrangeProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Service" type="462c0819:PsiDirectoryNode" />
-              <item name="Operations" type="462c0819:PsiDirectoryNode" />
-              <item name="Interfaces" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OrangeProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OrangeProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OrangeProject" type="b2602c69:ProjectViewProjectNode" />
@@ -300,17 +360,31 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553712425856" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554291565979" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Groovy JUnit" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/mysql-connector-java-5.1.47.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Service.Operations.Implementation" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\OrangeProject\src\test" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
@@ -335,7 +409,7 @@
       <module name="OrangeProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Service.Operations.Implementation.*" />
+          <option name="PATTERN" value="Service.Operations.Implementation.CRUD.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -357,11 +431,11 @@
       </method>
     </configuration>
     <configuration name="playerOperationImp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Service.Operations.Implementation.playerOperationImp" />
+      <option name="MAIN_CLASS_NAME" value="Service.Operations.Implementation.Operation.playerOperationImp" />
       <module name="OrangeProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Service.Operations.Implementation.*" />
+          <option name="PATTERN" value="Service.Operations.Implementation.CRUD.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -409,13 +483,20 @@
       <option name="project" value="LOCAL" />
       <updated>1553712453813</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add implementation of Team Player and started games">
+      <created>1554120516639</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1554120516639</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="784" height="832" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.40469614" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19463088" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -423,8 +504,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30878186" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30736545" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -434,14 +515,14 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3243626" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49716714" weight="0.24966443" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="8" side_tool="true" weight="0.119463086" />
+      <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="8" sideWeight="0.5028329" side_tool="true" visible="true" weight="0.09798658" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1885906" />
@@ -478,35 +559,13 @@
     <MESSAGE value="Add implementation of Team Player and started games" />
     <option name="LAST_COMMIT_MESSAGE" value="Add implementation of Team Player and started games" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Service/Algorythm/asdfghm.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Connection/SessionUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Service/temaOperationImp.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="72" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Connection/EntityUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -514,13 +573,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hiberrnate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" selection-start-line="4" selection-start-column="4" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -662,85 +714,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/teamOperations.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="72" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hiberrnate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/hiberrnate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Service/Operations/Implementation/playerOperationImpTest.groovy" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="86" selection-start-line="17" selection-start-column="86" selection-end-line="17" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Service/Operations/Implementation/teamOperationImpTest.groovy" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/Service/Operations/Implementation/gameOperationImpTest.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/sun/audio/AudioPlayer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Service/Operations/Implementation/teamOpartionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="27" selection-start-line="27" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/Algorythm/Interafaces/PosibilityOfWin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/Operation/TeamOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/Operation/playerOperations.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="22" />
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/playerOperationImp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/Operation/gameOperations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
-          <caret line="86" column="23" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="23" />
+        <state relative-caret-position="252">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Service/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1218">
-          <caret line="64" column="35" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/playerOperations.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/CRUD/TeamCRUD.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Models/Team.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/teamOperationImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/gameOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/gameOperationImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
-          <caret line="79" column="22" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Models/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Game#0;class#Game#0" />
+            <element signature="method#Team#0;class#Team#0" />
+            <element signature="method#Team#1;class#Team#0" />
+            <element signature="method#toString#0;class#Team#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Models/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        <state relative-caret-position="525">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="30" />
           <folding>
             <element signature="method#Player#0;class#Player#0" />
             <element signature="e#1731#1732#0" expanded="true" />
@@ -751,15 +840,137 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Models/Team.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/Operation/teamOperationImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="22" />
+        <state relative-caret-position="378">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#Team#0;class#Team#0" />
-            <element signature="method#Team#1;class#Team#0" />
-            <element signature="method#toString#0;class#Team#0" />
+            <element signature="method#getListOfTeams#0;class#teamOperationImp#0" />
+            <element signature="method#listOfTeamGames#0;class#teamOperationImp#0" />
+            <element signature="method#listOfWingingGamesGivenTeam#0;class#teamOperationImp#0" />
+            <element signature="method#listOfLosingGamesGivenTeam#0;class#teamOperationImp#0" />
+            <element signature="method#listOfTeamGamesAgainstGivenTeam#0;class#teamOperationImp#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Connection/SessionUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Models/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Game#0;class#Game#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/Operation/gameOperationImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getListOfGames#0;class#gameOperationImp#0" />
+            <element signature="method#listOfGameWhereTeamScoreMoreThen#0;class#gameOperationImp#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/CRUD/TeamCRUDImplementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#insertNewTeam#0;class#TeamCRUDImplementation#0" />
+            <element signature="method#findTeamByName#0;class#TeamCRUDImplementation#0" />
+            <element signature="method#updateTeamName#0;class#TeamCRUDImplementation#0" />
+            <element signature="method#deleteTeam#0;class#TeamCRUDImplementation#0" />
+            <element signature="method#findTeamById#0;class#TeamCRUDImplementation#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/CRUD/PlayerCRUDImplementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#insertNewPlayer#0;class#PlayerCRUDImplementation#0" />
+            <element signature="method#findPlayerById#0;class#PlayerCRUDImplementation#0" />
+            <element signature="method#getPlayerById#0;class#PlayerCRUDImplementation#0" />
+            <element signature="method#getPlayerBySurName#0;class#PlayerCRUDImplementation#0" />
+            <element signature="method#updatePlayer#0;class#PlayerCRUDImplementation#0" />
+            <element signature="method#deletePlayerInTeam#0;class#PlayerCRUDImplementation#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/CRUD/GameCRUDImplementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#insertNewGame#0;class#GameCRUDImplementation#0" />
+            <element signature="method#findGameById#0;class#GameCRUDImplementation#0" />
+            <element signature="method#deleteGame#0;class#GameCRUDImplementation#0" />
+            <element signature="method#updateGame#0;class#GameCRUDImplementation#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Implementation/Operation/playerOperationImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getListOfPlayersInTeam#0;class#playerOperationImp#0" />
+            <element signature="method#getListOfInjuredPlayer#0;class#playerOperationImp#0" />
+            <element signature="method#getListPlayerWithExperienceMoreThen#0;class#playerOperationImp#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/CRUD/GameCRUD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/Operations/Interfaces/CRUD/PlayerCRUD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="59" column="39" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

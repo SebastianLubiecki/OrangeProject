@@ -20,7 +20,6 @@ public class Main {
         }
 //             EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("orangeproject");
 //        EntityManager entityManager = entityManagerFactory.createEntityManager();
-//
 //        Team team1 = new Team();
 //        team1.setName("Celtics");
 //        Team team2 = new Team();

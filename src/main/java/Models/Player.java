@@ -11,7 +11,7 @@ public class Player {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "playerId")
     private Long playerId;
-// unice combination of id and name
+
     @Column(name = "firstName")
     private String firstName;
 
@@ -22,11 +22,14 @@ public class Player {
     private Integer age;
 
     @Column(name = "experience")
-    // default value = 0;
+    // default value = 0; ??
     private Integer experience;
 
     @Column(name = "isInjured")
     private Boolean isInjured;
+
+    @Column(name = "rating")
+    private Integer rating;
 
     @ManyToOne
     @JoinColumn(name = "teamId")
@@ -99,6 +102,14 @@ public class Player {
 
     public void setTeam(Team team) {
         this.team = team;
+    }
+
+    public int getRating() {
+        return rating;
+    }
+
+    public void setRating(int rating) {
+        this.rating = rating;
     }
 
     @Override

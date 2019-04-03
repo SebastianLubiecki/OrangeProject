@@ -14,7 +14,7 @@ public interface PlayerCRUD {
 
     List<Player> getPlayerBySurName(String name);
 
-    Boolean    deletePlayerInTeam(/*Team team,*/ Player player);
+    Boolean deletePlayerInTeam(/*Team team,*/ Player player);
 
 
 }

@@ -1,16 +1,10 @@
 package Service;
 
 import Models.Player;
-import Service.Operations.Implementation.CRUD.PlayerCRUDImplementation;
 import Service.Operations.Implementation.CRUD.TeamCRUDImplementation;
-import Service.Operations.Implementation.Operation.gameOperationImp;
 import Service.Operations.Implementation.Operation.playerOperationImp;
-import Service.Operations.Implementation.Operation.teamOperationImp;
-import Service.Operations.Interfaces.CRUD.PlayerCRUD;
 import Service.Operations.Interfaces.CRUD.TeamCRUD;
-import Service.Operations.Interfaces.Operation.GameOperations;
 import Service.Operations.Interfaces.Operation.PlayerOperations;
-import Service.Operations.Interfaces.Operation.TeamOperations;
 
 import java.util.List;
 
@@ -81,7 +75,5 @@ public class Main {
 
 
         // game operation imp do poprawy i sprawdzenia
-
-        System.out.println("Commit test");
     }
 }
